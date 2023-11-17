@@ -1,0 +1,39 @@
+{
+    "name": "@maxtan/iconfont",
+    "version": "1.0.2",
+    "description": "基于Node环境的字体生成器，可通过命令行将svg文件批量生成字体",
+    "main": "lib/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "iconfont",
+        "svg",
+        "svgfont"
+    ],
+    "repository": "https://github.com/MaxTan330/wonders/tree/master/packages/iconfont",
+    "author": "MaxTan <maxtan330@163.com>",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^4.1.0",
+        "lodash": "^4.17.15",
+        "svg-sprite": "^1.5.0",
+        "svg2ttf": "^4.3.0",
+        "svgicons2svgfont": "^9.1.1",
+        "ttf2eot": "^2.0.0",
+        "ttf2woff": "^2.0.1",
+        "ttf2woff2": "^3.0.0"
+    },
+    "bin": {
+        "iconfont": "lib/cli.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "lib"
+    ],
+    "devDependencies": {
+        "@types/svg-sprite": "^0.0.32"
+    }
+}
